@@ -1,0 +1,14 @@
+header,90,11,execve(2),0,Sat Dec 21 01:33:43 2024, + 124 msec
+exec arg,ls,-
+path,/sbin/ls
+subject,root,root,wheel,root,wheel,1680,914,52598,192.168.151.165
+return,failure : No such file or directory,4294967295
+trailer,90
+header,118,11,execve(2),0,Sat Dec 21 01:33:43 2024, + 124 msec
+exec arg,ls,-
+path,/bin/ls
+attribute,555,root,wheel,1743179658,15633,0
+subject,root,root,wheel,root,wheel,1680,914,52598,192.168.151.165
+return,success,0
+trailer,118
+
